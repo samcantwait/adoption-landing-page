@@ -493,6 +493,10 @@ body.toggled .navigation {
     color: var(--spiced-butternut);
 }
 
+.services__square--large .btn--services {
+    margin: 1rem 2rem 2rem 2rem;
+}
+
 .btn--services:hover,
 .btn--services:active {
     background-color: var(--spiced-butternut);
@@ -571,7 +575,7 @@ body.toggled .navigation {
 .btn--events:active {
     color: var(--swan-white);
     background-color: var(--devil-blue);
-    border: none;
+    border: 2px solid transparent;
 }
 
 .btn--next,
@@ -903,12 +907,15 @@ body.toggled .navigation {
     .services__square--large {
         order: 5;
         width: 40%;
-        flex-basis: 2;
     }
 
     .services__square--small {
         order: 3;
         width: 25%;
+    }
+
+    .services__square {
+        max-height: 30rem;
     }
 }
 
