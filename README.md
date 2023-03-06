@@ -4,3 +4,7 @@ Fully responsive.
 
 
 ![rendered page](adoption-responsive.jpg)
+
+---
+
+![rendered page](adoption-desktop.png)
